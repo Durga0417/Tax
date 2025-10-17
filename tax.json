@@ -16,10 +16,9 @@
          "date_of_birth": "${date_of_birth}",
          "id_type": "${id_type}",
          "id_number": "${id_number}",
-	"issued_on": "${issued_on}",
-        "expired_on": "${expired_on}"
-	"gender":"${gender}",
-	"fullname":"${fullname}",
-
+		"issued_on": "${issued_on}",
+        "expired_on": "${expired_on}",
+		"gender":"${gender}",
+		"fullname":"${fullname}"
      }
     }
