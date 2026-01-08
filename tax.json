@@ -1,18 +1,24 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "@protected": true,
-    "type": "@type",
-    "schema": "https://schema.org/",
-    "TaxCredential": {
-      "@id": "https://durga0417.github.io/Tax/tax.json#TaxCredential"
-    },
-    "date_of_birth": "schema:Text",
-    "id_type": "schema:Text",
-    "id_number": "schema:Text",
-    "issued_on": "schema:Text",
-    "expired_on": "schema:Text",
-    "gender":"schema:Text",
-	"fullname":"schema:Text"
-  }
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    {
+      "@version": 1.1,
+      "@protected": true,
+
+      "id": "@id",
+      "type": "@type",
+
+      "TaxCredential": "https://durga0417.github.io/Tax/tax.json#TaxCredential",
+
+      "fullName": "https://schema.org/Text",
+      "gender": "https://schema.org/Text",
+      "dateOfBirth": "https://schema.org/Text",
+
+      "idType": "https://schema.org/Text",
+      "idNumber": "https://schema.org/Text",
+
+      "issuedOn": "https://schema.org/Date",
+      "expiredOn": "https://schema.org/Date"
+    }
+  ]
 }
