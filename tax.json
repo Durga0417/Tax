@@ -1,24 +1,25 @@
 {
-  "@context": [
-    "https://www.w3.org/2018/credentials/v1",
-    {
-      "@version": 1.1,
-      "@protected": true,
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
 
-      "id": "@id",
-      "type": "@type",
+    "id": "@id",
+    "type": "@type",
 
-      "TaxCredential": "https://durga0417.github.io/Tax/tax.json#TaxCredential",
+    "schema": "https://schema.org/",
 
-      "fullName": "https://schema.org/Text",
-      "gender": "https://schema.org/Text",
-      "dateOfBirth": "https://schema.org/Text",
+    "TaxCredential": {
+      "@id": "https://durga0417.github.io/Tax/tax.json#TaxCredential"
+    },
 
-      "idType": "https://schema.org/Text",
-      "idNumber": "https://schema.org/Text",
+    "fullName": "schema:Text",
+    "gender": "schema:Text",
+    "dateOfBirth": "schema:Text",
 
-      "issuedOn": "https://schema.org/Date",
-      "expiredOn": "https://schema.org/Date"
-    }
-  ]
+    "idType": "schema:Text",
+    "idNumber": "schema:Text",
+
+    "issuedOn": "schema:Text",
+    "expiredOn": "schema:Text"
+  }
 }
