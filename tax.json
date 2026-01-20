@@ -11,15 +11,12 @@
     "TaxCredential": {
       "@id": "https://durga0417.github.io/Tax/tax.json#TaxCredential"
     },
-
-    "fullName": "schema:Text",
-    "gender": "schema:Text",
-    "dateOfBirth": "schema:Text",
-
-    "idType": "schema:Text",
-    "idNumber": "schema:Text",
-
-    "issuedOn": "schema:Text",
-    "expiredOn": "schema:Text"
+    "date_of_birth": "schema:Text",
+    "id_type": "schema:Text",
+    "id_number": "schema:Text",
+    "issued_on": "schema:Text",
+    "expired_on": "schema:Text",
+    "gender":"schema:Text",
+	  "fullname":"schema:Text"
   }
 }
