@@ -17,6 +17,9 @@
     "issued_on": "schema:Text",
     "expired_on": "schema:Text",
     "gender":"schema:Text",
-	  "fullname":"schema:Text"
+	  "fullname":"schema:Text",
+	  "firstname":"schema:Text",
+	   "face": "schema:image",
+	  "face":"schema:Text"
   }
 }
